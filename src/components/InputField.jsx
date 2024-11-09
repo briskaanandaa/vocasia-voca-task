@@ -23,7 +23,7 @@ const InputField = ({
         name={name}
         placeholder={placeholder}
         required={required}
-        className="w-[1em] md:w-[24em] px-4 py-2 text-slate-900 border-none bg-slate-100 rounded-[15px] focus:outline-none focus:ring-1 focus:ring-slate-300"
+        className="w-[18em] md:w-[24em] px-4 py-2 text-slate-900 border-none bg-slate-100 rounded-[15px] focus:outline-none focus:ring-1 focus:ring-slate-300"
       />
     </div>
   );

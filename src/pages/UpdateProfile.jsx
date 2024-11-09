@@ -6,7 +6,7 @@ import Person from "../assets/person.png";
 
 const UpdateProfile = () => {
   return (
-    <div className="bg-white px-10 py-10 rounded-[30px] flex flex-col justify-center items-center">
+    <div className="bg-white px-10 py-10 lg:my-8 rounded-[30px] flex flex-col justify-center items-center">
       <div className="w-full h-10 ">
         <a href="/task">
           <button className="flex text-lg font-medium items-center">
