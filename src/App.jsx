@@ -6,7 +6,7 @@ import UpdateProfile from "./pages/UpdateProfile";
 
 function App() {
   return (
-    <div className="w-[100vw] h-[100vh] bg-slate-100 flex flex-col justify-center items-center">
+    <div className="py-8 lg:py-0 w-full min-h-screen bg-slate-100 flex flex-col justify-center items-center">
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
